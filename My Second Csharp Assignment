@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace MyAssignment
+{
+	class Solution
+	{
+		static void Main(string[] args)
+		{
+			int i = 4;
+			double d = 4.0;
+			string  s = "Polyilaro";
+			
+			// declaring my variables
+			
+		   // int i;
+			//double d;
+			//string s;
+			
+			//Reading input
+			Console.WriteLine ("Enter an integer value");
+			int a = int.Parse(Console.ReadLine ());
+			
+			Console .WriteLine ("Enter a double value");
+		   double b = double.Parse(Console.ReadLine ());
+		   
+		   Console.WriteLine ("Enter a string");
+		   string c = Console.ReadLine ();
+			
+			//printing the sum of the integer values
+			Console.WriteLine (a + i);
+			
+			//printing the sum of the double values scaled to one decimal place
+			
+			Console.WriteLine ((d + b).ToString("F1"));
+			
+			//printing the concatenated string together
+			
+			Console.WriteLine (s + " " + c);
+		}
+	}
+}

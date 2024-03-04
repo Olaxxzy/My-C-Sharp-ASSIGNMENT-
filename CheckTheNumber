@@ -1,0 +1,18 @@
+using System;
+
+class CheckTheNumber
+{
+	static void Main()
+	{
+		Console.WriteLine("Enter a number:");
+
+		
+		double inputNumber = double.Parse(Console.ReadLine());
+
+		
+		string message = (inputNumber > 0) ? "Positive" : (inputNumber < 0) ? "Negative" : "Zero";
+
+		
+		Console.WriteLine($"Number: {inputNumber}\nResult: {message}");
+	}
+}
